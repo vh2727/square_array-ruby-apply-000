@@ -1,6 +1,7 @@
 def square_array(numbers)
-  numbers.each do |numnum|
-    numnum * numnum
-  end
-  numbers
+  new_set = Array.new
+    numbers.each do |num|
+      new_set << num * num
+    end
+    new_set
 end
